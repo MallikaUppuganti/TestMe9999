@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "My demo report validation in jenkins",
+        "description": "",
+        "id": "test-validation-for-the-git-jenkins-integration;my-demo-report-validation-in-jenkins",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15217556000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "TestMeApp is fully up and running",
+            "match": {
+              "location": "MyTest9999.testmeapp_is_fully_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11912812700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Registered user will enter valid credentials",
+            "match": {
+              "location": "MyTest9999.registered_user_will_enter_valid_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 261071700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verifies for the Login Status of her Credentials",
+            "match": {
+              "location": "MyTest9999.verifies_for_the_Login_Status_of_her_Credentials()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Validation for the git jenkins integration",
+    "description": "",
+    "id": "test-validation-for-the-git-jenkins-integration",
+    "keyword": "Feature",
+    "uri": "C:/Users/training_h2a.06.15/Desktop/Testing/Week 3/Selenium WorkSpace/CucumberDemo4/Feature456/mtest9999.feature",
+    "tags": []
+  }
+]
